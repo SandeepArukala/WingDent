@@ -1,0 +1,51 @@
+/*footer css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.horizontal-line {
+    border-top: 2px solid #e9841e; /* Pink color for the horizontal line */
+     margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/* Facebook */
+.social-links .facebook-icon {
+    background-color: #3b5998; /* Facebook blue */
+    color: #ffffff; /* White text color */
+  }
+  
+  /* Instagram */
+ .social-links .instagram-icon  {
+    background-color: #bc2a8d; /* Instagram purple */
+    color: #ffffff; /* White text color */
+  }
+  
+  /* LinkedIn */
+  .social-links .linkedin-icon  {
+    background-color: #0077b5; /* LinkedIn blue */
+    color: #ffffff; /* White text color */
+  }
+  
+  /* Twitter */
+  .social-links .twitter-icon {
+    background-color: #1da1f2; /* Twitter blue */
+    color: #ffffff; /* White text color */
+}
+.footer-logo{
+    color: rgb(67, 97, 238);
+}

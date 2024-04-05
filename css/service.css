@@ -1,0 +1,370 @@
+/*--- our Treatement and procedures ---*/
+.our-treatement-div 
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 184, 249);
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 30px 30px -15px;
+    padding:25px 10px 20px 20px ;
+    box-sizing: border-box;
+}
+.our 
+{
+    color: #000;
+    font-size: 24px; 
+}
+@media only screen and (max-width: 600px) 
+{
+    .our-treatement-div 
+    {
+        padding: 15px; 
+    }
+    .our 
+    {
+        font-size: 18px; 
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) 
+{
+    .our 
+    {
+      font-size: 20px; 
+    }
+}
+@media only screen and (min-width: 1025px) 
+{
+    .our 
+    {
+        font-size: 24px; 
+    }
+}
+.service-section
+{
+    padding: 40px;   
+}
+.rc-div,.df-div,.dc-div,.db-div,.we-div,.dt-div,.ab-div,.ib-div
+{
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.rc-btn,.df-btn,.dc-btn,.db-btn,.we-btn,.dt-btn,.ab-btn,.ib-btn
+{
+    background-color: white;
+    position: relative;
+    border: solid rgb(137, 133, 133) 1px;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+@media only screen and (max-width: 600px) 
+{
+    .btn-title 
+    {
+      font-size: 8px;
+      display: flex; 
+      position: relative;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .btn-title 
+    {
+        font-size: 16px; 
+    }
+}
+@media only screen and (min-width: 1025px) 
+{
+    .btn-title 
+    {
+        font-size: 18px; 
+    }
+}
+.rc-btn.active,.df-btn.active,.dc-btn.active,.db-btn.active,
+.we-btn.active,.dt-btn.active,.ab-btn.active,.ib-btn.active 
+{
+    background-color: #41c7f8;
+    color: white;
+    font-weight: bold;
+} 
+.dropdown img
+{
+    width: 20px;
+    height: 20px;
+}
+.rc-btn span,
+.df-btn span,
+.dc-btn span,
+.db-btn span,
+.we-btn span,
+.dt-btn span,
+.ab-btn span,
+.ib-btn span 
+{
+    white-space: nowrap;
+}
+.rc-btn.active .dropdown .light,.df-btn.active .dropdown .light,.dc-btn.active .dropdown .light,.db-btn.active .dropdown .light,
+.we-btn.active .dropdown .light,.dt-btn.active .dropdown .light,.ab-btn.active .dropdown .light,.ib-btn.active .dropdown .light 
+{
+    display: block;
+}
+.rc-btn.active .dropdown .dark,.df-btn.active .dropdown .dark,.dc-btn.active .dropdown .dark,.db-btn.active .dropdown .dark,
+.we-btn.active .dropdown .dark,.dt-btn.active .dropdown .dark,.ab-btn.active .dropdown .dark,.ib-btn.active .dropdown .dark 
+{
+    display: none;
+}
+.rc-btn .dropdown.light,.df-btn .dropdown .light,.dc-btn .dropdown .light,.db-btn .dropdown .light,
+.we-btn .dropdown .light,.dt-btn .dropdown .light,.ab-btn .dropdown .light,.ib-btn .dropdown .light 
+{
+    display: none;
+}
+.rc-btn.dropdown.dark,.df-btn .dropdown .dark,.dc-btn .dropdown .dark,.db-btn .dropdown .dark,
+.we-btn .dropdown .dark,.dt-btn .dropdown .dark,.ab-btn .dropdown .dark,.ib-btn .dropdown .dark 
+{
+    display: block;
+}
+.rc-btn.active,.df-btn.active, .dc-btn.active,.db-btn.active,
+.we-btn.active, .dt-btn.active,.ab-btn.active,.ib-btn.active
+{
+    background-color: rgb(21, 184, 249);
+    color: white;
+}
+.rc-btn.active .drop-down-icon .fa-angle-down,.df-btn.active .drop-down-icon .fa-angle-down,.dc-btn.active .drop-down-icon .fa-angle-down,.db-btn.active .drop-down-icon .fa-angle-down,
+.we-btn.active .drop-down-icon .fa-angle-down,.dt-btn.active .drop-down-icon .fa-angle-down,.ab-btn.active .drop-down-icon .fa-angle-down,.ib-btn.active .drop-down-icon .fa-angle-down  
+{
+    transform: rotate(180deg);
+}
+.heading-container.visible,.heading-container1.visible,.heading-container2.visible,.heading-container3.visible,
+.heading-container4.visible,.heading-container5.visible,.heading-container6.visible,.heading-container7.visible 
+{
+    display: block; /* Show headingPara container when visible class is present */
+}
+.heading-container,
+.heading-container1,
+.heading-container2,
+.heading-container3,
+.heading-container4,
+.heading-container5,
+.heading-container6,
+.heading-container7 
+{
+    display: none;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 16px; 
+    @media only screen and (min-width: 601px) 
+    {
+        font-size: 18px; 
+    }
+    @media only screen and (min-width: 1025px) 
+    {
+        font-size: 20px; 
+    }
+}
+.image-main,.image-main1,.image-main2,.image-main3,
+.image-main4,.image-main5,.image-main6,.image-main7
+{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.image-container,.image-container1,.image-container2,.image-container3,
+.image-container4,.image-container5,.image-container6 ,.image-container7
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(228, 222, 222, 0.374);
+    border-radius: 8px;
+}
+.image-container.visible,.image-container1.visible ,.image-container2.visible,.image-container3.visible,
+.image-container4.visible ,.image-container5.visible,.image-container6.visible ,.image-container7.visible
+{
+    display:block;
+}
+.image-container,.image-container1 , .image-container2,.image-container3,
+.image-container4 , .image-container5,.image-container6,.image-container7
+{
+    display: none; 
+}
+.image-container img,.image-container1 img,.image-container2 img,.image-container3 img,
+.image-container4 img,.image-container5 img,.image-container6 img,.image-container7 img
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.image-container h3,
+.image-container1 h3,
+.image-container2 h3,
+.image-container3 h3,
+.image-container4 h3,
+.image-container5 h3 
+{
+    font-size: 12px;
+    padding: auto; 
+    @media only screen and (min-width: 601px) 
+    {
+        font-size: 18px; 
+        padding: auto;
+    }
+    @media only screen and (min-width: 1025px) 
+    {
+        font-size: 20px; 
+        padding: auto;
+    }
+}
+.image-container.price,.image-container1 .price,.image-container2.price,.image-container3 .price,
+.image-container4 .price,.image-container5.price,.image-container6 .price,.image-container7 .price
+{
+    color: rgb(112, 108, 108);
+}
+.image-container.details-link,.image-container1 .details-link,.image-container2 .details-link,.image-container3 .details-link,
+.image-container4 .details-link,.image-container5 .details-link,.image-container6 .details-link,.image-container7 .details-link
+{
+    color: rgb(0, 153, 255);
+    text-decoration: underline;
+}
+.drop-down-icon 
+{
+    font-size: 18px;
+    margin-left: auto; /* Push the dropdown icon to the right */
+}
+@media only screen and (max-width: 600px) 
+{
+    .rc-btn,
+    .df-btn,
+    .dc-btn,
+    .db-btn,
+    .we-btn,
+    .dt-btn,
+    .ab-btn,
+    .ib-btn 
+    {
+        width: 100%;
+    }
+    .image-main,
+    .image-main1,
+    .image-main2,
+    .image-main3,
+    .image-main4,
+    .image-main5,
+    .image-main6,
+    .image-main7 
+    {
+        justify-content: center;
+    }
+    .image-container,
+    .image-container1,
+    .image-container2,
+    .image-container3,
+    .image-container4,
+    .image-container5,
+    .image-container6,
+    .image-container7 
+    {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) 
+{
+    .rc-btn,
+    .df-btn,
+    .dc-btn,
+    .db-btn,
+    .we-btn,
+    .dt-btn,
+    .ab-btn,
+    .ib-btn 
+    {
+        width: 48%;
+    }
+    .image-main,
+    .image-main1,
+    .image-main2,
+    .image-main3,
+    .image-main4,
+    .image-main5,
+    .image-main6,
+    .image-main7 
+    {
+        justify-content: space-between;
+    }
+    .image-container,
+    .image-container1,
+    .image-container2,
+    .image-container3,
+    .image-container4,
+    .image-container5,
+    .image-container6,
+    .image-container7 
+    {
+        width: 48%;
+    }
+}
+@media only screen and (min-width: 1025px) 
+{
+    .rc-btn,
+    .df-btn,
+    .dc-btn,
+    .db-btn,
+    .we-btn,
+    .dt-btn,
+    .ab-btn,
+    .ib-btn 
+    {
+        background-color: white;
+        position: relative;
+        border: solid rgb(137, 133, 133) 1px;
+        padding: 20px 15px 20px 40px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        border-radius:10px;
+        font-weight: bold;
+    }
+    .image-main,
+    .image-main1,
+    .image-main2,
+    .image-main3,
+    .image-main4,
+    .image-main5,
+    .image-main6,
+    .image-main7 
+    {
+      justify-content: space-between;
+    }
+    .image-container,
+    .image-container1,
+    .image-container2,
+    .image-container3,
+    .image-container4,
+    .image-container5,
+    .image-container6,
+    .image-container7 
+    {
+        width: 30%;
+    }
+}

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wingdent: Blogs page</title>
+        <link rel="icon" href="img/ShortLogo.png">
+        <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+        <meta content="Free HTML Templates" name="keywords">
+        <meta content="Free HTML Templates" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+        <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+        <!-- Slick Carousel CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!--footer css-->
+        <link href="css/footer.css" rel="stylesheet">
+
+        <!-- Chatbot Styleetsheet -->
+        <link href="css/for-bot.css" rel="stylesheet">
+
+        <!-- Blog Page Stylesheet -->
+        <link href="css/blog.css" rel="stylesheet">
+        
+<!--javascript for menubar start-->
+         <script>
+            $(document).ready(function() {
+                $('.navbar-nav a').on('click', function() {
+                  $('.navbar-collapse').collapse('hide');
+                });
+                $(window).on('scroll', function() {
+                  $('.navbar-collapse').collapse('hide');
+                });
+              });
+              </script>
+              <!---javascript for menubar end-->
+
+<!-- Change color of Hyperlink start -->
+        <style>
+            .topbar
+            {
+                color: white;
+            }
+        </style>
+        <!-- Change color of Hyperlink end -->
+    </head>
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow text-dark m-1" role="status">
+            <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow text-secondary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Top-bar Start -->
+<div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+    <div class="row gx-0">
+        <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+                <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+            </div>
+        </div>
+        <div class="col-md-6 text-center text-lg-end">
+            <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                <div class="me-3 pe-3 border-end py-2">
+                    <p class="m-0"><i class="fa fa-envelope-open me-2 "></i><a class="topbar" href="mailto:wingdent.homedental@gmail.com">wingdent.homedental@gmail.com</a></p>
+                </div>
+                <div class="py-2">
+                    <p class="m-0"><i class="fa fa-phone-alt me-2"></i><a class="topbar" href="tel:+916303261030">+91 63032 61030</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Top-bar End -->
+
+
+           <!-- Navbar Start -->
+        
+           <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-3 py-5 py-lg-4">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="img/Logo.png" height="100px" width="200px" class="img-fluid" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                            <a href="team.html" class="dropdown-item">Our Dentist</a>
+                            <a href="Blog.html" class="dropdown-item" >Blog</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="" class="dropdown-item">Medicine</a>
+                            <a href="" class="dropdown-item">Gallery</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+        </nav>
+            
+            <!-- Navbar End -->
+
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                <div class="input-group" style="max-width: 600px;">
+                    <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                    <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-primary py-5 hero-header mb-5">
+        <div class="row py-3">
+            <div class="col-12 text-center">
+            <h1 class="display-3 text-white animated zoomIn">Blog</h1>
+            <a href="" class="h4 text-white">Home</a>
+            <i class="far fa-circle text-white px-2"></i>
+            <a href="" class="h4 text-white">Blog</a>
+            </div>
+        </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- Blog Start -->
+            <section class="sec1">
+                <div class="pdiv">
+                <div class="cdiv1">
+                    <img class="image" >
+                    
+                </div>
+                <div class="cdiv2">
+                    <h3>How to Get Rid of Cavities</h3><br>
+                    <h4>Cavities</h4><br>
+                    <p>
+                        Dental cavities, or caries, are tiny holes in the hard surface of the teeth. They are caused by bacteria on the surface of teeth creating acid out of sugar. The most common culprit is a bacterium known as Streptococcus mutans.
+                        The bacteria form a sticky film known as plaque. The acids in plaque remove minerals from (demineralize) your enamel — a coating of the teeth made mostly of calcium and phosphate. This erosion causes tiny holes in the enamel. Once the acid damage spreads into the dentin layer underneath the enamel, a cavity forms.
+                    </p>
+                </div>
+                </div>
+                <div class="pdiv2">
+                    <h1>Latest</h1>
+                    <div class="cdiv1">
+                        <div class="cdiv">
+                            <img class="img1">
+
+                            <!-- Create a box using a div element with the class "box" -->
+                            <div class="box">
+                            <!-- Content inside the box -->
+                            <p>What to Know Before You<br>Get a Retainer...</p>
+                            <!-- Read more button -->
+                            <button class="read-more-btn" onclick="showPopup1()">Read More</button>
+                            </div>
+
+                            <!-- Popup overlay -->
+                            <div class="overlay" id="popupOverlay1">
+                            <!-- Popup content -->
+                            <div class="popup-content">
+                                <img class="img1">
+                                <h3>What to Know Before You Get a Retainer</h3><br>
+                                <p>
+                                There are two basic types of retainers: removable and permanent. Your orthodontist helps you choose the best type for you based on what you needed braces for and any conditions you might have. You may be given only one type, or you may receive a removable retainer for your top teeth and a permanent one for your bottom teeth
+                                A retainer keeps your teeth from moving after they’ve been straightened with braces. It can take at least four to six monthsTrusted Source for the new position of your teeth to become permanent. During that time, your teeth will try to shift back to their original position, which is called relapse. When used as instructed, a retainer prevents this from happening.
+                                </p>
+                                <!-- Close button to close the popup -->
+                                <button class="read-more-btn" onclick="hidePopup1()">Close</button>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="cdiv">
+                            <img class="img2">
+
+                            <!-- Create a box using a div element with the class "box" -->
+                            <div class="box">
+                            <!-- Content inside the box -->
+                            <p>Dental Tips For Parents...<br><br></p>
+                            <!-- Read more button -->
+                            <button class="read-more-btn" onclick="showPopup2()">Read More</button>
+                            </div>
+
+                            <!-- Popup overlay -->
+                            <div class="overlay" id="popupOverlay2">
+                            <!-- Popup content -->
+                            <div class="popup-content">
+                                <img class="img2">
+                                <h3>Dental Tips For Parents</h3><br>
+                                <!--   <h2>Whether you are a new parent or an experienced caregiver, your child’s oral health is an important aspect of their overall health. These quick and easy tips will make it easier to keep their mouth happy, and their smile sparkling.</h2><br>   -->
+                                <p>
+                                Starting to clean your child’s mouth even before they have teeth helps to build the activity into a routine. An easy way to do this is to clean their mouth by running a clean, soft cloth wet with warm water over their gums and cheeks. Doing this helps to get rid of any food particles and sugars left behind from meal time and also gets the child used to having their mouth cleaned daily.
+                                Discouraging grazing on sugar-filled foods or sipping on sugary drinks between meals is a great way to protect your child’s teeth against excess sugar and acids. Of course, permanently substituting these with water and vegetables makes for healthier choices for both the mouth and body, so we’ll always advocate for that!
+                                When your child does start growing teeth, they will not have the motor skills to use a toothbrush so you will have to brush their teeth for them. The easiest way to do this is to put the child in a reclined position while you use a soft bristled toothbrush to get rid of food particles and sugar. The most effective way to brush a child’s teeth is to hold the bristles of the toothbrush at the gumline.
+                                </p>
+                                <!-- Close button to close the popup -->
+                                <button class="read-more-btn" onclick="hidePopup2()">Close</button>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="cdiv">
+                            <img class="img3">
+
+                            <!-- Create a box using a div element with the class "box" -->
+                            <div class="box">
+                                <!-- Content inside the box -->
+                                <p>Why Drinking More Water Is<br>Good For Your Oral Health?</p>
+                                <!-- Read more button -->
+                                <button class="read-more-btn" onclick="showPopup3()">Read More</button>
+                            </div>
+
+                            <!-- Popup overlay -->
+                            <div class="overlay" id="popupOverlay3">
+                                <!-- Popup content -->
+                                <div class="popup-content">
+                                <img class="img3">
+                                <h3>Why Drinking More Water Is Good For Your Oral Health?</h3><br>
+                                <p>
+                                    Water is not a magic bullet, but its benefits are many; hence most of us consume water depending upon the requirement of the individual’s body. We are aware of drinking water, and especially no fluids can compensate for it. Our bodies are occupied by the majority of water and support us to look glowing and our cells hydrated for high levels of organs functioning. Consuming water at regular intervals makes you active, healthy, and successful in your professional and personal life. In this article we will briefly learn about the benefits of drinking water for oral health, side effects of excess water intake. and by the end of this article we will get an idea on does drinking more protect your oral health?
+                                </p>
+                                <!-- Close button to close the popup -->
+                                <button class="read-more-btn" onclick="hidePopup3()">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cdiv1">
+                    <div class="cdiv">
+                        <img class="img4">
+
+                        <!-- Create a box using a div element with the class "box" -->
+                        <div class="box">
+                            <!-- Content inside the box -->
+                            <p>Tooth Sensitivity to Heat, cold<br>and sweets</p>
+                            <!-- Read more button -->
+                            <button class="read-more-btn" onclick="showPopup4()">Read More</button>
+                        </div>
+
+                        <!-- Popup overlay -->
+                        <div class="overlay" id="popupOverlay4">
+                            <!-- Popup content -->
+                            <div class="popup-content">
+                            <img class="img4">
+                            <h3>Tooth Sensitivity to Heat, cold and sweets</h3><br>
+                            <p>
+                                The sensitivity of tooth is the most common complaint heard from a patient in dental clinics. Sensitivity gives great discomfort and pain in the teeth. At least 6 out of 10 adults are suffering from teeth sensitivity problem. The associated pain is usually sudden in onset and sharp impinging in nature. Though it is temporary, it causes a lot of grief and discomfort to the patients. There is no relative or specific age group that shows or is associated with sensitive teeth.
+                            </p>
+                            <!-- Close button to close the popup -->
+                            <button class="read-more-btn" onclick="hidePopup4()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cdiv">
+                        <img class="img5">
+
+                        <!-- Create a box using a div element with the class "box" -->
+                        <div class="box">
+                            <!-- Content inside the box -->
+                            <p>Benefits of Flossing Your Teeth</p><br>
+                            <!-- Read more button -->
+                            <button class="read-more-btn" onclick="showPopup5()">Read More</button>
+                        </div>
+
+                        <!-- Popup overlay -->
+                        <div class="overlay" id="popupOverlay5">
+                            <!-- Popup content -->
+                            <div class="popup-content">
+                            <img class="img5">
+                            <h3>Benefits of Flossing Your Teeth</h3><br>
+                            <p>
+                                Smile is the best posture to convey our happiness and make others smile despite any conditions. For a healthy smile, your teeth should be clean, and healthy positive dental supports you to be fit with oral hygiene. Cleaning between your teeth prevents cavities and funds a reduction of gum diseases, in simple terms flossing can make you healthy orally. Here comes a question is flossing important for your teeth? what are the benefits of flossing? 
+
+                                You should use refreshers or water to clean the remnants after food consumption. Cleaning teeth is a normal process that helps to remove a sticky film on your teeth called plaque. If not cleared while brushing or cleaning your teeth, plaque may harden and might form into a rough substance named tartar. It is noticed that the tartar may lead to gum diseases as it collects along your gum line. You should consult positive dental to remove tartar if it forms.    
+                            </p>
+                            <!-- Close button to close the popup -->
+                            <button class="read-more-btn" onclick="hidePopup5()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cdiv">
+                        <img class="img6">
+
+                        <!-- Create a box using a div element with the class "box" -->
+                        <div class="box">
+                            <!-- Content inside the box -->
+                            <p>How smiling affects oral hygiene?</p><br>
+                            <!-- Read more button -->
+                            <button class="read-more-btn" onclick="showPopup6()">Read More</button>
+                        </div>
+
+                        <!-- Popup overlay -->
+                        <div class="overlay" id="popupOverlay6">
+                            <!-- Popup content -->
+                            <div class="popup-content">
+                                <img class="img6">
+                                <h3>How smiling affects oral hygiene?</h3><br>
+                                <p>
+                                A smile makes you look attractive and confident to handle tough times. Smiling is the genuine reason to be happy, and facial muscular movements highlight our emotions for maintaining long-term relations. A smile is the best practice as it changes the mood of the other person.
+                                </p>
+                                <!-- Close button to close the popup -->
+                                <button class="read-more-btn" onclick="hidePopup6()">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </section>
+            <!-- Blog End -->
+
+            <!-- Whatsapp in Right Side Start -->
+            <div id="whatsapp">
+            <a href="https://bit.ly/4a0r8aj" target="_blank" id="toggle1" class="wtaspp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+        <!-- Whatsapp in Right Side Start -->
+
+
+        <!-- Chatbot Start -->
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <img src="img/Logo.jpg" height="60px" width="200">
+                <span class="close-btn material-symbols-outlined">close</span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <div class="cbdiv">
+                        <div>
+                            <span class="material-symbols-outlined">smart_toy</span>
+                        </div>
+                        <div class="chatoptions" id="chatoptions">
+                            <p>Hey there👋!<br>How can I help you?</p>
+                            <button class="chatopt" id="cwai">
+                                Chat with AI Bot
+                            </button>
+                            <button class="chatopt" id="cwla">
+                                Chat with Live Agent
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ques" id="ques" style="display: none;">
+                        <button class="quest" id="back">
+                            ➪
+                        </button>
+                        <button class="quest">
+                            Question 1
+                        </button>
+
+                        <button class="quest">
+                            Question 2
+                        </button>
+                        
+                        <button class="quest">
+                            Question 3
+                        </button>
+                        
+                        <button class="quest">
+                            Question 4
+                        </button>
+                        
+                        <button class="quest">
+                            Question 5
+                        </button>
+                    </div>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <span id="send-btn" class="material-symbols-rounded">send</span>
+            </div>
+        </div>
+        <!-- Chatbot End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light py-5 wow fadeInUp"style="margin-top: -75px;">
+            <div class="container pt-2">
+                <div class="row g-5 pt-3">
+                    <div class="footer col col-lg-4 col-md-6">
+                        <h3 class="text-primary">Useful Links</h3>
+                        <div class="horizontal-line"></div>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="appointment.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Book An Appointment</a>
+                            <a class="text-light mb-2" href="price.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Medicine</a>
+                            <a class="text-light mb-2" href="service.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Our Services</a>
+                            <a class="text-light mb-2" href="blog.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Latest Blog</a>
+                            <!-- <a class="text-light" href="#"><i class="bi bi-caret-right-fill text-primary me-1"></i>Contact Us</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-primary">Quick Links</h3>
+                        <div class="horizontal-line"></div>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-light mb-2" href="index.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Home</a>
+                            <a class="text-light mb-2" href="about.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>About Us</a>
+                            <a class="text-light mb-2" href="#"><i class="bi bi-caret-right-fill text-primary me-1"></i>Gallery</a>
+                            <a class="text-light mb-2" href="testimonial.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Testimonial & Reviews</a>
+                            <a class="text-light" href="contact.html"><i class="bi bi-caret-right-fill text-primary me-1"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-primary">Get In Touch</h3>
+                        <div class="horizontal-line"></div>
+                        <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Flat no.g5,first floor,meghapushpa enclave.
+                            Near kaman,Medipally,Hyderabad, Telangana</p>
+                        <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>wingdent.homedental@gmail.com</p>
+                        <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+91 6303261030</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid text-light pt-5 py-2">
+                <div class="container">
+                    <div class="row g-0 d-flex">
+                        <div class="col-md-6 text-start text-md-start">
+                            <div class="d-flex">
+                                <div class="social-links">
+                                    <a class="facebook-icon" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a  class="twitter-icon" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a class="instagram-icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a class="linkedin-icon" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center text-md-start">
+                            <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#"><span class="footer-logo">Wingdent</span></a>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer End -->
+
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+        <script src="lib/twentytwenty/jquery.event.move.js"></script>
+        <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+        <!-- Script for whatsapp start -->
+        <script>
+        document.addEventListener("DOMContentLoaded", function () 
+        {
+            const adBanner = document.getElementById("ad-banner");
+            const closeAd = document.getElementById("close-ad");
+            //adBanner.style.display = "block";        
+            closeAd.addEventListener("click", function () 
+            {
+                adBanner.style.display = "none";
+            });
+        });
+                
+        var copts = document.getElementById("chatoptions");
+        var copt = document.getElementById("chatopt");
+        var ques = document.getElementById("ques");
+        var cwai = document.getElementById("cwai");
+        var cwla = document.getElementById("cwla");
+        var back = document.getElementById("back");
+        
+        cwai.addEventListener('click', 
+        () =>
+        {
+            chatoptions.classList.add("translate")
+            setTimeout(
+            () =>
+            {
+                chatoptions.classList.remove("translate")
+                chatoptions.style.display = "none";
+                // cwla.style.display = "none";
+                ques.style.display = "block";
+            }, 500
+            );
+        });
+
+        cwla.addEventListener('click', 
+        () =>
+        {
+            cwai.style.display = "none";
+        });
+
+        back.addEventListener("click", 
+        () =>
+        {
+            ques.style.display = "none";
+            chatoptions.style.display = "block";
+        });
+    </script>
+    <!-- Script for whatsapp end -->
+
+        <!-- Script for Template -->
+        <script src="js/main.js"></script>
+
+        <!-- Script for Blog -->
+        <script src="js/blog.js"></script>
+
+        <!-- Script for chatbot -->
+        <script src="js/chatbot.js"></script>
+    </body>
+</html>

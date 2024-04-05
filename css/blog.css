@@ -1,0 +1,286 @@
+.sec1 
+{
+   /* padding-left: 0px 50px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    gap: 0px;
+    padding: 0px 100px;
+    height: 1700px;
+}
+.image
+{
+    width: 380px;
+    height: 380px;
+    background-image: url("/img/blogImgH.png");
+    background-size: cover; /* Adjust to your needs: cover, contain, etc. */
+    background-position: center center; /* Adjust to position the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+.pdiv
+{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    gap: 70px;
+    border-radius: 15px;   
+}
+.cdiv1
+{
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.cdiv2
+{
+    padding-top: 20px;
+}
+h3
+{
+    font-size: 30px;
+    color: blue;
+}
+h4
+{
+    font-size: 25px;
+    color: blue;
+}
+p
+{
+    line-height: 28px;
+    text-align: justify;
+    font-size: 16px;
+}
+.pdiv2
+{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.pdiv2 h1
+{
+    font-size: 30px;
+    color: blue;
+}
+.pdiv2 .cdiv1
+{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.pdiv2 .cdiv1 .cdiv
+{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px; 
+}
+.pdiv2 .cdiv1 .cdiv:hover 
+{
+    box-shadow: 10px 10px 20px #888888;   
+}
+.img1
+{
+    width: 300px;
+    height: 250px;
+    background-image: url("/img/blogImg1.png");
+    background-size: cover; 
+    background-position: center center;
+    border-radius: 10px;
+}
+.img2
+{
+    width: 300px;
+    height: 250px;
+    background-image: url("/img/blogImg2.png");
+    background-size: cover; 
+    background-position: center center;
+    border-radius: 10px;   
+}
+.img3
+{
+    width: 300px;
+    height: 250px;
+    background-image: url("/img/blogImg3.png");
+    background-size: cover; 
+    background-position: center center;
+    border-radius: 10px;   
+}
+.img4
+{
+    width: 300px;
+    height: 250px;
+    background-image: url("/img/blogImg4.jpg");
+    background-size: cover; 
+    background-position: center center;
+    border-radius: 10px;   
+}
+.img5
+{
+    width: 300px;
+    height: 250px;
+    background-image: url("/img/blogImg5.png");
+    background-size: cover; 
+    background-position: center center;
+    border-radius: 10px;   
+}
+.img6
+{
+    width: 300px;
+    height: 250px;
+    background-image: url("/img/blogImg6.png");
+    background-size: cover; 
+    background-position: center center;
+    border-radius: 10px;   
+}
+
+/* Media query for tablet screens */
+@media (max-width: 1200px) 
+{
+    .pdiv
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 850px;
+        gap: 70px;
+        border-radius: 15px;   
+    }
+    .sec1 
+    { 
+        height: 2000px;
+    }
+    .pdiv2 .cdiv1 .cdiv
+    {
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        box-shadow: 5px 5px 10px #888888;
+        transition: box-shadow 0.3s ease;
+        border-radius: 10px;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6
+    {
+        width: 250px;
+    }
+    .cdiv1
+    {
+        padding: 15px;
+    }
+    .pdiv2 .cdiv1
+    {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }    
+}
+
+/* Media query for mobile screens */
+@media (max-width: 576px)
+{
+    .header-btn
+    {
+        padding: 20px;
+    }
+    .body
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .pdiv
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: 340px;
+    }
+    .pdiv .cdiv1
+    {
+        align-items: center;
+    }
+    .sec1
+    {
+        height: 3800px;
+    }
+    .cdiv1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .img
+    {
+        width: 380px;
+        height: 380px;
+        background-image: url('/dental-clinic-website-template/img/blogImgH.png');
+        background-size: cover; /* Adjust to your needs: cover, contain, etc. */
+        background-position: center center; /* Adjust to position the image */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+    }
+    .container-fluid bg-dark text-light py-5 wow fadeInUp
+    {
+        visibility: hidden;
+    }
+    .popup-content
+    {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 380px;
+        height: 700px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+        z-index: 1000; /* Adjust z-index as needed */
+        text-align: center;
+    }
+}
+
+/* Add some basic styling for the box */
+.box 
+{
+    width: 280px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for the popup overlay */
+.overlay 
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the popup content */
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.read-more-btn 
+{
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}

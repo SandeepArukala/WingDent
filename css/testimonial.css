@@ -1,0 +1,67 @@
+/* Styles for the slideshow */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .testimonial-slide {
+     display: none;
+  }
+  .testimonial-slide-first{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .testimonial {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .author {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Styles for the navigation arrows */
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    background-color: black;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .pic1{
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .manager{
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.text{
+    font-family: sans-serif;
+}
